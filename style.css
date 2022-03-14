@@ -1,0 +1,11 @@
+
+@media (min-width: 768px) {
+
+.header {
+  grid-area: header;
+}
+
+  .grid-container {
+    grid-template-columns: 55px 1fr;
+    grid-template-areas:
+  }
