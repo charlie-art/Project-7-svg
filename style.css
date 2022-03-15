@@ -9,3 +9,20 @@
     grid-template-columns: 55px 1fr;
     grid-template-areas:
   }
+
+
+  .main {
+  display: grid;
+  
+}
+
+@media (min-width: 768px) {
+  .main {
+
+        grid-template-columns: 50% ;
+  }
+}
+
+@media (min-width: 768px) {
+     .traffic, .social {
+} }
