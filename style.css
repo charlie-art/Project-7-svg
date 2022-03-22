@@ -1,8 +1,8 @@
 
 @media (min-width: 768px) {
 
-.header {
-  grid-area: header;
+body {
+ display: grid
 }
 
   .grid-container {
@@ -15,5 +15,4 @@
   display: grid;
   
 }
-
 }
