@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,85 +18,77 @@
         -- div#notifications (container element for our notifications)
 
     </div>
+</header>
 
-    <h3> (or similar element)</h3>
+<h3> (or similar element)</h3>
 
-    <div class="alert" id="alert">
+<div class="alert" id="alert">
 
+</div>
+
+<section class="traffic">
+    <div class="traffic-header">
+        <h3>Traffic</h3>
+        <ul class="traffic-nav">
+            <li class="traffic-nav-link">Hourly</li>
+            <li class="traffic-nav-link">Daily</li>
+            <li class="traffic-nav-link active">Weekly</li>
+            <li class="traffic-nav-link">Monthly</li>
+        </ul>
     </div>
-
-    <section class="traffic">
-        <div class="traffic-header">
-            <h3>Traffic</h3>
-            <ul class="traffic-nav">
-                <li class="traffic-nav-link">Hourly</li>
-                <li class="traffic-nav-link">Daily</li>
-                <li class="traffic-nav-link active">Weekly</li>
-                <li class="traffic-nav-link">Monthly</li>
-            </ul>
-        </div>
-        <div class="widget-container-full">
-            <!-- element line graph will attach to --> <canvas id="traffic-chart"></canvas>
-        </div>
-    </section>
-
-    <div class="social-container">
-        <div class="social-image"></div>
+    <div class="widget-container-full">
+        <!-- element line graph will attach to --> <canvas id="traffic-chart"></canvas>
     </div>
-    <div class="social-text">
-        <p>Twitter</p>
-        <p>10,345</p>
-    </div>
+</section>
 
-    <!-- add two more social containers and child
+<div class="social-container">
+    <div class="social-image"></div>
+</div>
+<div class="social-text">
+    <p>Twitter</p>
+    <p>10,345</p>
+</div>
+
+<!-- add two more social containers and child
                elements for other social media items -->
 
 
 
-    <h6 class="members"></h6>
-    <h2>New Members</h2>
-    <div class="members-container">
-        <img src="images/Sept2018Profile.jpg" alt="profile-image">
-        <div class="members-text">
-            <p>Victoria Chambers</p>
-            <a href="#">victoria.chambers80@example.com</a>
-        </div>
-        <p>10/15/15</p>
+<h6 class="members"></h6>
+<h2>New Members</h2>
+<div class="members-container">
+    <img src="images/Sept2018Profile.jpg" alt="profile-image">
+    <div class="members-text">
+        <p>Victoria Chambers</p>
+        <a href="#">victoria.chambers80@example.com</a>
     </div>
+    <p>10/15/15</p>
+</div>
 
-    <section class="message">
-        <h6>Message User</h6>
-        <form class="widget-container">
-            <input type="text" placeholder="Search for user" class="form-field" id="userField">
-            <textarea placeholder="Message for user" class="form-area" id="messageField"></textarea>
-            <button class="button-primary" id="send">Send</button>
-        </form>
-    </section>
-
-
-    <section class="settings">
-        <h3>Settings</h3>
-        <!-- custom CSS toggle code-->
-        <!-- custom CSS toggle code-->
-        <select class="form-field" id="timezone">
-            <option disabled selected>Select a Timezone</option>
-            <option>Eastern</option>
-            <!-- more options -->
-        </select>
-        <div class="settings-button">
-            <button class="button-primary" id="save">Save</button>
-            <button class="button-disabled" id="cancel">Cancel</button>
-        </div>
-    </section>
+<section class="message">
+    <h6>Message User</h6>
+    <form class="widget-container">
+        <input type="text" placeholder="Search for user" class="form-field" id="userField">
+        <textarea placeholder="Message for user" class="form-area" id="messageField"></textarea>
+        <button class="button-primary" id="send">Send</button>
+    </form>
+</section>
 
 
-</header>
-<nav>
+<section class="settings">
+    <h3>Settings</h3>
+    <!-- custom CSS toggle code-->
+    <!-- custom CSS toggle code-->
+    <select class="form-field" id="timezone">
+        <option disabled selected>Select a Timezone</option>
+        <option>Eastern</option>
+        <!-- more options -->
+    </select>
+    <div class="settings-button">
+        <button class="button-primary" id="save">Save</button>
+        <button class="button-disabled" id="cancel">Cancel</button>
+    </div>
+</section>
 
-</nav>
-
-<main>
-
-</main>
 
 </html>
