@@ -1,6 +1,6 @@
 
 
- .header {
+ .main-header{
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
@@ -9,13 +9,13 @@
       "navigation"
       "main"; }
 
-    .trafic-header {
+    .traffic {
   grid-area: header;
 }
 .traffic-nav {
   grid-area: navigation;
 }
-.main {
+.social-container {
   display: grid;
   grid-area: main;
    grid-template-columns: 50% ;
