@@ -9,10 +9,10 @@
       "navigation"
       "main"; }
 
-    .header {
+    .trafic-header {
   grid-area: header;
 }
-.navigation {
+.traffic-nav {
   grid-area: navigation;
 }
 .main {
