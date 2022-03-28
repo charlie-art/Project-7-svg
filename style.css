@@ -9,7 +9,7 @@
       "navigation"
       "main"; }
 
-    .traffic {
+  .traffic {
   grid-area: header;
 }
 .traffic-nav {
