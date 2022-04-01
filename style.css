@@ -5,6 +5,17 @@
   grid-template-columns: 100%;
   grid-template-rows: auto;
 }
+.header, .header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-image {
+ border-radius: 50%;
+ height: 70px;
+ width: 70px;
+}
 
   .traffic {
   grid-area: header;
@@ -12,11 +23,27 @@
 .traffic-nav {
   grid-area: navigation;
 }
-.social-container {
-  display: grid;
-  grid-area: main;
-   grid-template-columns: 50% ;
-};
+
+
+.social-text p:last-of-type {
+  font-size: 35px;
+}
+
+.social-container svg {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+}
+.social-image-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #7477bf;
+  margin-left: 15px;
+}
 
 @media (min-width: 768px) {
   .grid-container {
