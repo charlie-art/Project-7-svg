@@ -2,7 +2,7 @@
 
  .main-header{
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 0%;
   grid-template-rows: auto;
 }
 .header, .header-right {
