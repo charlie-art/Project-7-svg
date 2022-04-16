@@ -1,8 +1,26 @@
 .grid-container {
+ display: grid;
 
-  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-columns: 100%;
+  grid-template-rows: auto ;
+
+  grid-template-areas:
+      "header"
+      "nmain"
+      "nav-main";
  
-  grid-template-rows: 25% 100px auto;
+
+}
+
+
+.header {
+  grid-area: header;
+}
+.nav-main{
+  grid-area: navigation;
+}
+.main {
+  grid-area: main;
 }
 
  .right-size-container{
@@ -31,18 +49,6 @@ width: 50px;
 }
 
 
-
-
-
-.header {
-  grid-area: header;
-}
-.nav-main{
-  grid-area: navigation;
-}
-.main {
-  grid-area: main;
-}
 
 
 
