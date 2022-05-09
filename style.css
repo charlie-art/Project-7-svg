@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header"
+        "navigation"
+        "main";
+
+
+
+    @media (min-width: 769px) {}
