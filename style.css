@@ -16,15 +16,15 @@
     width: 10%;
 }
 
-.header {
+header {
     grid-area: header;
 }
 
-.navigation {
+navigation {
     grid-area: navigation;
 }
 
-.main {
+main {
     grid-area: main;
 }
 
