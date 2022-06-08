@@ -1,3 +1,46 @@
+canvas {
+    width: 100%;
+    background-color: purple;
+}
+
+.social-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-container {
+    background-color: grey;
+    display: flex;
+}
+
+svg {
+    display: none;
+
+}
+
+nav {
+    background-color: red;
+
+
+}
+
+header {
+    background-color: blue;
+}
+
+img {
+
+    width: 100px;
+}
+
+main {
+    background-color: green;
+}
+
+main>* {
+    border: 1px solid red;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -21,6 +64,13 @@
 }
 
 @media (min-width: 768px) {
+    .social-flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
     .grid-container {
         grid-template-columns: 55px 1fr;
         grid-template-areas:
