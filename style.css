@@ -1,3 +1,45 @@
+.button-primary {
+    width: 170px;
+    height: 30px;
+    background-color: blue;
+
+}
+
+
+.form-area {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+
+
+.form-field {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+
+}
+
+.activity-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.members-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.traffic-grid-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .student-name-white {
     justify-items: right;
     color: white;
