@@ -1,3 +1,12 @@
+#save {
+    width: 50%;
+}
+
+#cancel {
+    width: 48%;
+}
+
+
 .messages {
     display: flex;
     flex-direction: column;
@@ -11,11 +20,11 @@
 
 
 #timezone {
-    width: 350px;
+    width: 99%;
 }
 
 .button-disabled {
-    width: 170px;
+    width: 200px;
     height: 30px;
     background-color: gray;
 }
@@ -39,8 +48,6 @@
 .settings {
     display: flex;
     flex-direction: column;
-
-
 
 }
 
