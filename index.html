@@ -54,17 +54,29 @@
         <section class="traffic">
             <div class="traffic-header">
                 <h3>TRAFFIC</h3>
-                <ul class="traffic-grid-container">
-                    <li class="traffic-hourly">Hourly</li>
-                    <li class="traffic-daily">Daily</li>
-                    <li class="traffic-weekly">Weekly</li>
-                    <li class="traffic-monthly">Monthly</li>
-                </ul>
+                <fieldset>
+                    <div class="switch-toggle-switch-candy">
+                        <input id="week" name="view" type="radio" checked>
+                        <label for="week" onclick="">Week</label>
+
+                        <input id="month" name="view" type="radio">
+                        <label for="month" onclick="">Month</label>
+
+                        <input id="day" name="view" type="radio">
+                        <label for="day" onclick="">Day</label>
+
+                        <input id="day" name="view" type="radio">
+                        <label for="day" onclick="">hourly</label>
+
+                        <a></a>
+                    </div>
+                </fieldset>
             </div>
-            <div class="widget-container-full">
-                <!-- element line graph will attach to -->
-                <canvas id="traffic-chart"></canvas>
-            </div>
+        </section>
+        <div class="widget-container-full">
+            <!-- element line graph will attach to -->
+            <canvas id="traffic-chart"></canvas>
+        </div>
         </section>
 
         <section class="daily">
@@ -222,8 +234,35 @@
         </section>
 
         <section class="settings">
+
             <h3>Settings</h3>
-            <!-- custom CSS toggle code-->
+
+            <label class="switch-light" onclick="">
+                <input type="checkbox">
+                <strong>
+                    Send e-mail notifications
+                </strong>
+
+                <span class="alert alert-light">
+                    <span>Off</span>
+                    <span>On</span>
+                    <a class="btn btn-primary"></a>
+                </span>
+            </label>
+            <label class="switch-light" onclick="">
+                <input type="checkbox">
+                <strong>
+                    Set profile to public
+                </strong>
+
+                <span class="alert alert-light">
+                    <span>Off</span>
+                    <span>On</span>
+                    <a class="btn btn-primary"></a>
+                </span>
+            </label>
+
+
             <!-- custom CSS toggle code-->
             <select class="form-field" id="timezone">
                 <option disabled selected>Select a Timezone</option>
