@@ -87,9 +87,8 @@
 }
 
 .vertical-line {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    border-left: 6px solid green;
+    height: 100px;
 }
 
 .bell-icon {
