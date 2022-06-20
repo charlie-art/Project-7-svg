@@ -97,10 +97,14 @@
     justify-content: center;
 }
 
+.Webapp {
+    color: white;
+}
+
 .student-name-white {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     color: white;
 }
 
@@ -132,12 +136,15 @@ nav {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: blue;
 }
 
 img {
 
     width: 100px;
+    border-radius: 50%
 }
 
 main {
