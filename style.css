@@ -98,6 +98,7 @@
 
 .Webapp {
     color: white;
+
 }
 
 .student-name-white {
@@ -132,12 +133,14 @@ nav {
     background-color: red;
 
 
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: blue;
+
 }
 
 img {
@@ -148,6 +151,7 @@ img {
 
 main {
     background-color: green;
+
 }
 
 main>* {
@@ -158,11 +162,13 @@ main>* {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 .activity-text {
     display: flex;
     justify-content: center;
+
 }
 
 .activity-container {
@@ -170,25 +176,32 @@ main>* {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .grid-container {
+
     display: grid;
+
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
         "header"
         "navigation"
         "main";
+
 }
 
 .header {
     display: flex;
     justify-content: right;
+
 }
 
 .navigation {
     grid-area: navigation;
+
 }
 
 .main {
