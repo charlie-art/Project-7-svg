@@ -94,6 +94,7 @@
 .bell-icon {
     display: flex;
     justify-content: center;
+
 }
 
 .Webapp {
@@ -110,7 +111,6 @@
 
 canvas {
     width: 100%;
-    background-color: purple;
 }
 
 .social-flex {
@@ -182,14 +182,13 @@ main>* {
 
 .grid-container {
 
-    display: grid;
-
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
         "header"
         "navigation"
         "main";
+
 
 }
 
@@ -207,6 +206,17 @@ main>* {
 .main {
     grid-area: main;
 }
+
+.alert {
+    display: flex;
+    justify-content: center;
+
+    background-color: blue;
+    color: aqua;
+
+    width: 99%;
+}
+
 
 @media (min-width: 768px) {
     .social-flex {
