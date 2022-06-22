@@ -23,6 +23,7 @@
 .nav-grid-container-navigation {
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -198,10 +199,7 @@ main>* {
 
 }
 
-.navigation {
-    grid-area: navigation;
 
-}
 
 .main {
     grid-area: main;
