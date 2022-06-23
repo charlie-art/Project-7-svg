@@ -133,8 +133,6 @@ svg {
 
 }
 
-
-
 header {
     display: flex;
     justify-content: space-between;
@@ -225,17 +223,16 @@ main>* {
     @media (min-width: 768px) {
 
         .grid-container {
-            grid-template-columns: 55px 1fr;
+            grid-template-columns: 50px 1fr;
             grid-template-areas:
                 "header header"
+
                 "navigation main";
         }
     }
 }
 
-.main {
-    display: grid;
-}
+
 
 @media (min-width: 768px) {
     .main {
