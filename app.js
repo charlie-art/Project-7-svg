@@ -120,6 +120,7 @@ let mobileChart = new Chart(mobileCanvas, {
 });
 
 
+
 const user = document.getElementById("userField");
 const message = document.getElementById("messageField");
 const send = document.getElementById("send");
