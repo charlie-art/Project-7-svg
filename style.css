@@ -33,10 +33,10 @@
 
 
 .navigation {
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
+    display: table-row-group;
+    flex-direction: column;
     grid-area: navigation;
+    background-color: red;
 
 }
 
@@ -154,7 +154,7 @@ header {
 
 img {
 
-    width: 75px;
+    width: 50px;
     border-radius: 50%
 }
 
