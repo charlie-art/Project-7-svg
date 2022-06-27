@@ -1,3 +1,15 @@
+.alert {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
 .switch-light {
     display: flex;
     justify-content: flex-end;
@@ -21,11 +33,10 @@
 
 
 .navigation {
-
+    background-color: red;
     display: flex;
     justify-content: space-between;
     grid-area: navigation;
-    background-color: red;
 
 }
 
@@ -143,7 +154,7 @@ header {
 
 img {
 
-    width: 100px;
+    width: 75px;
     border-radius: 50%
 }
 
