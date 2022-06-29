@@ -29,9 +29,10 @@
 
 
 
-.navigation {
-    display: table-row-group;
+nav {
+    display: flex;
     flex-direction: column;
+
     grid-area: navigation;
     background-color: red;
 
@@ -215,8 +216,8 @@ header {
 
 }
 
-img {
 
+img {
     width: 50px;
     border-radius: 50%
 }
@@ -286,18 +287,30 @@ main>* {
     width: 99%;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
 @media (min-width: 768px) {
     .social-flex {
+        display: flex;
         flex-direction: row;
-        justify-content: space-between;
+
     }
 
 
 
     @media (min-width: 768px) {
+        .nav {
+            flex-direction: column;
+        }
 
         .grid-container {
+
             grid-template-columns: 50px 1fr;
             grid-template-areas:
                 "header header"
