@@ -1,3 +1,22 @@
+.bell-icon {
+    display: flex;
+    position: relative;
+}
+
+.bell-icon:after {
+    top: 20px;
+    right: 15px;
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: rgb(80, 250, 154);
+    border-radius: 50%;
+}
+
+
+
 .alert {
     margin-left: 15px;
     color: white;
