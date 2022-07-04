@@ -314,7 +314,7 @@ main>* {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     .social-flex {
         display: flex;
         flex-direction: row;
@@ -340,13 +340,13 @@ main>* {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .main {
         grid-template-columns: 50%;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
 
     .traffic,
     .social {
@@ -377,7 +377,7 @@ main>* {
     width: 95vw;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .widget-container-full {
         width: 90vw;
     }
