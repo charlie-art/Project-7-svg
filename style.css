@@ -1,6 +1,10 @@
 .bell-icon {
+
+
     display: flex;
     position: relative;
+
+
 }
 
 .bell-icon:after {
@@ -13,6 +17,9 @@
     height: 10px;
     background: rgb(80, 250, 154);
     border-radius: 50%;
+
+
+
 }
 
 
