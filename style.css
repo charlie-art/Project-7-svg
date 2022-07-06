@@ -314,9 +314,11 @@ main>* {
 
 
 
-@media (min-width: 320px) {
+@media (min-width: 768px) {
     .social-flex {
         display: flex;
+
+        justify-content: space-between;
         flex-direction: row;
 
     }
@@ -328,6 +330,7 @@ main>* {
             flex-direction: column;
         }
 
+
         .grid-container {
 
             grid-template-columns: 50px 1fr;
@@ -336,53 +339,54 @@ main>* {
                 "navigation main";
         }
     }
-}
 
 
 
-@media (min-width: 1024px) {
-    .main {
-        grid-template-columns: 50%;
-    }
-}
 
-@media (min-width:768px) {
 
-    .traffic,
-    .social {
-        grid-column: 1 / span 2;
-    }
-}
+    @media (min-width:768px) {
 
-@media (min-width: 768px) {
 
-    .daily,
-    .members,
-    .message {
-        grid-column: 1 / span 1;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .mobile,
-    .activity,
-    .settings {
-        grid-column: 2 / span 1;
-    }
-}
-
-.widget-container-full,
-.widget-container-half {
-    width: 95vw;
-}
-
-@media (min-width: 1024px) {
-    .widget-container-full {
-        width: 90vw;
+        .traffic,
+        .social {
+            grid-column: 1 / span 2;
+        }
     }
 
-    .widget-container-half {
-        width: 45vw;
+    @media (min-width: 768px) {
+
+        .daily,
+        .members,
+        .message {
+            grid-column: 1 / span 1;
+        }
+    }
+
+    @media (min-width: 768px) {
+
+
+        .settings {
+            grid-column: 2 / span 1;
+        }
+
+        .widget-container-full,
+        .widget-container-half {
+            width: 95vw;
+        }
+
+        @media (min-width: 1024px) {}
+
+
+        .widget-container-full {
+            width: 90vw;
+        }
+
+        .grid-container {
+
+            grid-template-columns: 50px 1fr;
+            grid-template-areas:
+                "header header"
+                "navigation main";
+        }
     }
 }
