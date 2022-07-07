@@ -336,7 +336,7 @@ main>* {
 
     @media (min-width: 768px) {
         .nav {
-            flex-direction: column;
+            flex-direction: row;
         }
 
 
@@ -373,29 +373,30 @@ main>* {
 
     @media (min-width: 768px) {
 
-
         .settings {
             grid-column: 2 / span 1;
         }
 
         .widget-container-full,
         .widget-container-half {
+
             width: 95vw;
         }
 
-        @media (min-width: 1024px) {}
+        @media (min-width: 1024px) {
 
 
-        .widget-container-full {
-            width: 90vw;
-        }
+            .widget-container-full {
+                width: 90vw;
+            }
 
-        .grid-container {
+            .grid-container {
 
-            grid-template-columns: 50px 1fr;
-            grid-template-areas:
-                "header header"
-                "navigation main";
+                grid-template-columns: 50px 1fr;
+                grid-template-areas:
+                    "header header"
+                    "navigation main";
+            }
         }
     }
 }
