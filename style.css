@@ -1,3 +1,25 @@
+.social-image svg {
+    fill: white;
+    background: blue;
+    border-radius: 50%;
+}
+
+
+
+svg {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    border-radius: 0%
+}
+
+img {
+
+    border-radius: 50%;
+}
+
+
+
 .bell-icon {
     display: flex;
     position: relative;
@@ -18,10 +40,6 @@
 
 
 
-}
-
-svg {
-    width: 50px;
 }
 
 
@@ -162,7 +180,9 @@ input:checked+.slider:before {
     display: flex;
     flex-direction: column;
 
+
 }
+
 
 
 
@@ -231,10 +251,7 @@ canvas {
 
 }
 
-svg {
-    display: none;
 
-}
 
 header {
     display: flex;
@@ -245,10 +262,7 @@ header {
 }
 
 
-img {
-    width: 50px;
-    border-radius: 50%
-}
+
 
 main {
     background-color: lightblue;
@@ -336,7 +350,8 @@ main>* {
 
     @media (min-width: 768px) {
         .nav {
-            flex-direction: row;
+
+            flex-direction: column;
         }
 
 
