@@ -395,10 +395,13 @@ main>* {
 
     @media (min-width: 768px) {
 
-
+        .activity,
         .daily,
         .members,
         .message {
+
+
+
             grid-column: 1 / span 1;
         }
     }
