@@ -200,6 +200,7 @@ input:checked+.slider:before {
 }
 
 
+
 .members-container {
     display: flex;
     flex-direction: column;
@@ -339,6 +340,21 @@ main>* {
 
 @media (min-width: 768px) {
 
+    .members-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .activity-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+
+
 
     .traffic,
     .mobile {
@@ -366,7 +382,7 @@ main>* {
 
 
         .nav {
-
+            display: flex;
             flex-direction: column;
         }
 
