@@ -338,6 +338,19 @@ main>* {
 
 
 @media (min-width: 768px) {
+
+
+    .traffic,
+    .mobile {
+        width: 49%;
+        display: inline-block;
+    }
+
+    .widget-container-full,
+    .widget-container-half {
+        width: 100%;
+    }
+
     .social-flex {
         display: flex;
 
@@ -349,6 +362,9 @@ main>* {
 
 
     @media (min-width: 768px) {
+
+
+
         .nav {
 
             flex-direction: column;
@@ -371,13 +387,14 @@ main>* {
     @media (min-width:768px) {
 
 
-        .traffic,
+
         .social {
             grid-column: 1 / span 2;
         }
     }
 
     @media (min-width: 768px) {
+
 
         .daily,
         .members,
@@ -387,6 +404,8 @@ main>* {
     }
 
     @media (min-width: 768px) {
+
+
 
         .settings {
             grid-column: 2 / span 1;
@@ -399,6 +418,17 @@ main>* {
         }
 
         @media (min-width: 1024px) {
+
+            .traffic,
+            .mobile {
+                width: 49%;
+                display: inline-block;
+            }
+
+            .widget-container-full,
+            .widget-container-half {
+                width: 100%;
+            }
 
 
             .widget-container-full {
