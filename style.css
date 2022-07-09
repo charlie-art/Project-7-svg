@@ -345,7 +345,9 @@ main>* {
         flex-direction: row;
         align-items: center;
 
+
     }
+
 
     .activity-container {
         display: flex;
@@ -353,9 +355,11 @@ main>* {
         justify-content: left;
     }
 
+    .activity {
+        align-items: flex-start;
+    }
 
-
-
+    .activity,
     .traffic,
     .mobile {
         width: 49%;
@@ -438,11 +442,15 @@ main>* {
 
         @media (min-width: 1024px) {
 
-            .traffic,
+
+            .members,
             .mobile {
                 width: 49%;
                 display: inline-block;
             }
+
+
+
 
             .widget-container-full,
             .widget-container-half {
