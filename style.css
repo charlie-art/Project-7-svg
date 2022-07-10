@@ -78,11 +78,11 @@ img {
 nav {
     display: flex;
     flex-direction: column;
-
     grid-area: navigation;
     background-color: red;
 
 }
+
 
 /* toggle switches
 
@@ -333,6 +333,7 @@ main>* {
 .nav {
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -443,11 +444,13 @@ main>* {
         @media (min-width: 1024px) {
 
 
+
             .members,
             .mobile {
                 width: 49%;
                 display: inline-block;
             }
+
 
 
 
