@@ -443,13 +443,18 @@ main>* {
 
         @media (min-width: 1024px) {
 
-
+            .two-sections {
+                display: flex;
+                justify-content: right;
+            }
 
             .members,
             .mobile {
                 width: 49%;
                 display: inline-block;
             }
+
+
 
 
 
