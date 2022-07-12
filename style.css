@@ -442,10 +442,11 @@ main>* {
         }
 
         @media (min-width: 1024px) {
-
             .two-sections {
-                display: flex;
+                display: grid;
                 justify-content: right;
+                justify-content: space-between;
+
             }
 
             .members,
