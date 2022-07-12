@@ -6,6 +6,8 @@
 
 
 
+
+
 svg {
     display: flex;
     flex-direction: row;
@@ -178,7 +180,7 @@ input:checked+.slider:before {
 
 .settings {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 
 }
@@ -442,6 +444,8 @@ main>* {
         }
 
         @media (min-width: 1024px) {
+
+
             .two-sections {
                 display: grid;
                 justify-content: right;
@@ -454,7 +458,6 @@ main>* {
                 width: 49%;
                 display: inline-block;
             }
-
 
 
 
