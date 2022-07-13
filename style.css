@@ -6,17 +6,18 @@
 
 
 
-
-
 svg {
     display: flex;
     flex-direction: row;
     width: 50px;
-    border-radius: 0%
+    border-radius: 0%;
+    fill: white;
 }
 
-img {
 
+
+img {
+    height: 60%;
     border-radius: 50%;
 }
 
@@ -159,7 +160,7 @@ input:checked+.slider:before {
 .button-disabled {
     width: 200px;
     height: 30px;
-    background-color: gray;
+    background-color: grey
 }
 
 .button-primary {
@@ -367,20 +368,14 @@ main>* {
     .mobile {
         width: 49%;
         display: inline-block;
+
     }
 
-    .widget-container-full,
+    .widget-container-half,
     .widget-container-half {
-        width: 100%;
+        width: 50%;
     }
 
-    .social-flex {
-        display: flex;
-
-        justify-content: space-between;
-        flex-direction: row;
-
-    }
 
 
 
@@ -437,10 +432,10 @@ main>* {
             grid-column: 2 / span 1;
         }
 
-        .widget-container-full,
+        .widget-container-half,
         .widget-container-half {
 
-            width: 95vw;
+            width: 45vw;
         }
 
         @media (min-width: 1024px) {
