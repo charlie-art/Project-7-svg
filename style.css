@@ -453,12 +453,28 @@ main>* {
             and a greater than symbol 
             needs to be added and right-aligned like the new members date.  */
 
-            .two-sections {
-                display: grid;
-                justify-content: right;
-                justify-content: space-between;
+            .message {
+                display: inline-block;
+                flex-direction: column;
+                width: 50%;
 
             }
+
+            .settings {
+                display: inline-block;
+                justify-content: first baseline;
+
+            }
+
+            .timezone {
+                display: inline-block;
+                justify-content: last baseline;
+            }
+
+
+
+
+
 
             .members,
             .mobile {
@@ -467,19 +483,6 @@ main>* {
             }
 
 
-
-
-
-
-            .widget-container-full,
-            .widget-container-half {
-                width: 100%;
-            }
-
-
-            .widget-container-full {
-                width: 90vw;
-            }
 
             .grid-container {
 

@@ -248,15 +248,17 @@
             </div>
         </section>
         </section>
-        <div class="two-sections">
-            <section class="message">
-                <h3>Message User</h3>
-                <form class="widget-container">
-                    <input type="text" placeholder="Search for user" class="form-field" id="userField">
-                    <textarea placeholder="Message for user" class="form-area" id="messageField"></textarea>
-                    <button class="button-primary" id="send">Send</button>
-                </form>
-            </section>
+
+        <section class="message">
+            <h3>Message User</h3>
+            <form class="widget-container">
+                <input type="text" placeholder="Search for user" class="form-field" id="userField">
+                <textarea placeholder="Message for user" class="form-area" id="messageField"></textarea>
+                <button class="button-primary" id="send">Send</button>
+            </form>
+        </section>
+
+        <div class="settings">
 
             <section class="settings" id="settings">
 
@@ -276,6 +278,8 @@
             </section>
 
 
+
+
         </div>
 
 
@@ -285,20 +289,22 @@
 
         <!-- custom CSS toggle code-->
 
+        <div class="timezone">
+            <select class="form-field" id="timezone">
+                <option disabled selected>Select a Timezone</option>
+                <option>Eastern</option>
+                <!-- more options -->
+            </select>
 
-        <select class="form-field" id="timezone">
-            <option disabled selected>Select a Timezone</option>
-            <option>Eastern</option>
-            <!-- more options -->
-        </select>
 
-        <section>
-            <div class="settings-button">
+            <section>
+
 
                 <button class="button-primary" id="save">Save</button>
                 <button class="button-disabled" id="cancel">Cancel</button>
-            </div>
+        </div>
         </section>
+        </div>
 
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
