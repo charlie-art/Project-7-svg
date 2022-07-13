@@ -452,7 +452,6 @@ main>* {
             also the time stamp needs to be on it’s own line below the other text, 
             and a greater than symbol 
             needs to be added and right-aligned like the new members date.  */
-
             .message {
                 display: inline-block;
                 flex-direction: column;
@@ -466,10 +465,8 @@ main>* {
 
             }
 
-            .timezone {
-                display: inline-block;
-                justify-content: last baseline;
-            }
+
+
 
 
 
