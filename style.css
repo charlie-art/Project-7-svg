@@ -23,11 +23,15 @@ img {
 
 
 
-.bell-icon {
+.bell-icon:hover {
     display: flex;
     position: relative;
 
+    background-color: yellow;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 10%;
 }
+
 
 .bell-icon::after {
     top: 20px;
@@ -82,7 +86,7 @@ nav {
     display: flex;
     flex-direction: column;
     grid-area: navigation;
-    background-color: red;
+    background-color: rgb(37, 150, 190);
 
 }
 
@@ -218,9 +222,11 @@ input:checked+.slider:before {
 }
 
 .vertical-line {
-    border-left: 6px solid green;
+    border-left: 1px solid white;
     height: 100px;
 }
+
+
 
 .bell-icon {
     display: flex;
@@ -440,6 +446,12 @@ main>* {
 
         @media (min-width: 1024px) {
 
+            /* At 768px and 1024px the new members date needs to be right-aligned 
+            to edge of it’s container and the activities need to take up full width 
+            of it’s container, 
+            also the time stamp needs to be on it’s own line below the other text, 
+            and a greater than symbol 
+            needs to be added and right-aligned like the new members date.  */
 
             .two-sections {
                 display: grid;
