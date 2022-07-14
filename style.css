@@ -210,6 +210,8 @@ input:checked+.slider:before {
 
 
 
+
+
 .members-container {
     display: flex;
     flex-direction: column;
@@ -292,6 +294,15 @@ main>* {
 
 }
 
+.grid2 {
+    display: grid;
+    flex-direction: column;
+}
+
+.col {
+    flex: 1;
+}
+
 .activity-text {
     display: flex;
     justify-content: center;
@@ -360,6 +371,15 @@ main>* {
 
     }
 
+    .grid2 {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .col {
+        flex: 1;
+    }
+
 
     .activity-container {
         display: flex;
@@ -389,7 +409,14 @@ main>* {
 
     @media (min-width: 768px) {
 
+        .grid2 {
+            display: grid;
+            flex-direction: column;
+        }
 
+        .col {
+            flex: 1;
+        }
 
         .nav {
             display: flex;
@@ -434,6 +461,11 @@ main>* {
 
     @media (min-width: 768px) {
 
+        .col {
+            flex: 1;
+        }
+
+
 
 
         .settings {
@@ -449,6 +481,15 @@ main>* {
         }
 
         @media (min-width: 1024px) {
+
+            .grid2 {
+                display: grid;
+                flex-direction: column;
+            }
+
+            .col {
+                flex: 2;
+            }
 
             /* At 768px and 1024px the new members date needs to be right-aligned 
             to edge of it’s container and the activities need to take up full width 
