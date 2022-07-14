@@ -76,8 +76,9 @@ img {
 
 
 .messages {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
+    width: 40%;
 }
 
 
@@ -184,8 +185,9 @@ input:checked+.slider:before {
 
 
 .settings {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    justify-content: column;
+    width: 50%;
 
 
 }
@@ -435,7 +437,9 @@ main>* {
 
 
         .settings {
-            grid-column: 2 / span 1;
+            display: inline-block;
+            justify-content: column;
+            width: 50%;
         }
 
         .widget-container-half,
