@@ -484,7 +484,7 @@ main>* {
 
             .grid2 {
                 display: grid;
-                flex-direction: column;
+                flex-direction: row;
             }
 
             .col {
@@ -522,9 +522,6 @@ main>* {
 
             .toggle-group {
                 display: flex;
-                flex-direction: row;
-                width: 50%;
-
 
             }
 
