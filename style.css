@@ -187,7 +187,7 @@ input:checked+.slider:before {
 .settings {
     display: inline-block;
     justify-content: column;
-    width: 50%;
+    width: 100%;
 
 
 }
@@ -339,7 +339,7 @@ main>* {
 
 
 .main {
-    grid-area: main;
+    display: grid;
 }
 
 .alert {
