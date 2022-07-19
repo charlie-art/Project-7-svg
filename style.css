@@ -193,9 +193,7 @@ input:checked+.slider:before {
 }
 
 
-
-
-.widget-container {
+.widget-container-full {
     display: flex;
     flex-direction: column;
 
@@ -342,8 +340,8 @@ main>* {
 
 
 .main {
-    display: grid;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
 }
 
 .alert {
@@ -365,6 +363,8 @@ main>* {
 
 
 
+
+
 @media (min-width: 768px) {
 
     .members-container {
@@ -375,9 +375,9 @@ main>* {
 
     }
 
-    .grid2 {
+    .activity .members .grid2 {
         display: grid;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .col {
@@ -388,172 +388,156 @@ main>* {
 
 
 
-    .activity,
-    .traffic,
-    .mobile {
-        width: 35%;
-        display: inline-block;
-
+    .traffic .mobile {
+        display: inline;
+        flex-direction: row;
 
     }
 
-    .widget-container-half,
-    .widget-container-half {
-        width: 50%;
+    .activity {
+
+        display: flex;
     }
+
+
 
     .alert {
         display: flex;
         flex-direction: column;
     }
 
-
-
-
-    @media (min-width: 768px) {
-
-        .grid2 {
-            display: grid;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .col {
-            flex: 1;
-        }
-
-        .nav {
-            display: flex;
-            flex-direction: column;
-        }
-
-
-        .grid-container {
-
-            grid-template-columns: 50px 1fr;
-            grid-template-areas:
-                "header header"
-                "navigation main";
-        }
-
-
-
-
-
-
-
-
-
-
-        .social {
-            grid-column: 1 / span 2;
-        }
-
-
-
-
-        .activity,
-        .daily,
-        .members,
-        .message {
-
-            display: grid;
-            flex-direction: column;
-
-
-            grid-column: 1 / span 1;
-        }
+    .grid2 {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    @media (min-width: 768px) {
+    .col {
+        flex: 1;
+    }
 
-        .col {
-            flex: 1;
-        }
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .grid-container {
+
+        grid-template-columns: 50px 1fr;
+        grid-template-areas:
+            "header header"
+            "navigation main";
+    }
+
+    .social {
+        grid-column: 1 / span 2;
+    }
 
 
 
 
-        .settings {
-            display: inline-block;
-            justify-content: column;
-            width: 100%;
-        }
+    .activity,
+    .daily,
+    .members,
+    .message {
 
-        .widget-container-half {
+        display: grid;
+        flex-direction: column;
 
-            width: 50vw;
-        }
 
-        @media (min-width: 1024px) {
+        grid-column: 7 / span 1;
+    }
+}
 
-            .grid2 {
-                display: grid;
-                flex-direction: row;
-            }
 
-            .col {
-                flex: 2;
-            }
 
-            /* At 768px and 1024px the new members date needs to be right-aligned 
+.col {
+    flex: 1;
+}
+
+
+
+
+.settings {
+    display: inline-block;
+    justify-content: column;
+    width: 100%;
+}
+
+.widget-container-half {
+
+    width: 50vw;
+}
+
+
+@media (min-width: 1024px) {
+
+    .grid2 {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .col {
+        flex: 2;
+    }
+
+    /* At 768px and 1024px the new members date needs to be right-aligned 
             to edge of it’s container and the activities need to take up full width 
             of it’s container, 
             also the time stamp needs to be on it’s own line below the other text, 
             and a greater than symbol 
             needs to be added and right-aligned like the new members date.  */
-            .message {
-                display: inline-block;
-                flex-direction: column;
-                width: 40%;
+    .message {
+        display: inline-block;
+        flex-direction: column;
+        width: 40%;
 
 
-            }
+    }
 
-            .social-flex {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
+    .social-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
-            }
-
-
-            .settings {
-                display: inline-block;
-                justify-content: column;
-                width: 50%;
-
-            }
-
-            .toggle-group {
-                display: flex;
+    }
 
 
-            }
+    .settings {
+        display: inline-block;
+        justify-content: column;
+        width: 50%;
+
+    }
+
+    .toggle-group {
+        display: flex;
 
 
-
+    }
 
 
 
 
 
 
-            .members,
-            .mobile {
-                width: 49%;
-                display: inline-block;
-            }
 
 
 
-            .grid-container {
+    .members,
+    .mobile {
+        width: 49%;
+        display: inline-block;
+    }
 
-                grid-template-columns: px 1fr;
-                grid-template-areas:
-                    "header header"
-                    "navigation main";
-            }
-        }
+
+
+    .grid-container {
+
+        grid-template-columns: px 1fr;
+        grid-template-areas:
+            "header header"
+            "navigation main";
     }
 }
