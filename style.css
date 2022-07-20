@@ -269,6 +269,8 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: blue;
+    width: 100%;
+
     grid-area: header;
 
 }
@@ -327,17 +329,6 @@ main>* {
 
 
 }
-
-
-
-.header {
-    display: flex;
-    justify-content: right;
-    flex-direction: row;
-
-}
-
-
 
 .main {
     display: flex;
@@ -469,6 +460,8 @@ main>* {
 
     width: 50vw;
 }
+
+;
 
 
 @media (min-width: 1024px) {
