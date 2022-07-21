@@ -264,6 +264,11 @@ canvas {
 }
 
 
+.Header-items {
+    display: flex;
+    justify-content: right;
+
+}
 
 header {
     display: flex;
@@ -364,6 +369,26 @@ main>* {
 
 
 
+    }
+
+    .widget-container-full {
+        width: 50%;
+        display: grid;
+        flex-direction: row;
+
+
+
+    }
+
+
+    .chart-items {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .switch-toggle-switch-candy {
+        display: flex;
+        justify-content: flex-end;
     }
 
     .activity .members .grid2 {
