@@ -363,6 +363,9 @@ main>* {
 
 @media (min-width: 768px) {
 
+
+
+
     .members-container {
         display: flex;
         flex-direction: row;
@@ -371,14 +374,14 @@ main>* {
 
     }
 
-    .widget-container-full {
-        width: 50%;
-        display: grid;
+    .traffic-mobile {
+        display: flex;
         flex-direction: row;
-
-
+        justify-content: space-between;
 
     }
+
+
 
 
     .chart-items {
@@ -404,11 +407,6 @@ main>* {
 
 
 
-    .traffic .mobile {
-        display: inline;
-        flex-direction: row;
-
-    }
 
     .activity {
 
@@ -468,9 +466,6 @@ main>* {
 
 
 
-.col {
-    flex: 1;
-}
 
 
 
@@ -483,13 +478,15 @@ main>* {
 
 .widget-container-half {
 
-    width: 50vw;
+    width: 25vw;
 }
 
 ;
 
 
+
 @media (min-width: 1024px) {
+
 
     .grid2 {
         display: grid;
@@ -545,7 +542,7 @@ main>* {
 
     .members,
     .mobile {
-        width: 49%;
+        width: 50%;
         display: inline-block;
     }
 
