@@ -6,6 +6,8 @@
 
 
 
+
+
 svg {
     display: flex;
     flex-direction: row;
@@ -155,6 +157,18 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 60%;
+}
+
+.slider::after {
+    position: absolute;
+    content: "OFF";
+    right: 10px;
+    top: 5px;
+}
+
+input:checked+.slider::after {
+    content: "ON";
+    left: 5px;
 }
 
 
@@ -451,8 +465,8 @@ main>* {
     .message {
 
         display: grid;
-        flex-direction: column;
-        float: right;
+        flex-direction: row;
+
 
 
         grid-column: 1 / span 7;
@@ -475,6 +489,8 @@ main>* {
         justify-content: column;
         width: 100%;
     }
+
+
 
 
 
