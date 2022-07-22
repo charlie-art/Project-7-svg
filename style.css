@@ -392,7 +392,15 @@ main>* {
 
     }
 
+    .toggle-group-text {
+        display: grid;
+        flex-direction: row;
+    }
 
+    .toggle-group {
+        display: grid;
+        flex-direction: column;
+    }
 
 
     .chart-items {
@@ -407,18 +415,12 @@ main>* {
 
     .activity .members {
         display: grid;
-        flex-direction: column;
-
+        flex-direction: row;
     }
 
     .col {
         flex: 1;
     }
-
-
-
-
-
 
 
 
