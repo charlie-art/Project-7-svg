@@ -390,11 +390,19 @@ main>* {
         flex-direction: row;
         justify-content: space-between;
 
+
     }
 
-    .toggle-group-text {
-        display: grid;
-        flex-direction: row;
+    .toggle-text {
+        display: flex;
+        justify-content: left;
+    }
+
+    .toggle-group {
+        display: flex;
+        float: right;
+        flex-direction: column;
+
     }
 
     .switch {
@@ -549,6 +557,10 @@ main>* {
 
 
 
+    .activity {
+        display: flex;
+        flex-direction: column;
+    }
 
 
 
