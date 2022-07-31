@@ -511,6 +511,8 @@ main>* {
 @media (min-width: 1024px) {
 
 
+
+
     .grid2 {
         display: grid;
         flex-direction: row;
@@ -558,8 +560,14 @@ main>* {
 
 
     .activity {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .settings {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+
     }
 
 
@@ -577,7 +585,7 @@ main>* {
 
     .grid-container {
 
-        grid-template-columns: px 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas:
             "header header"
             "navigation main";
