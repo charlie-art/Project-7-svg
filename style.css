@@ -339,6 +339,7 @@ main>* {
 
 .grid-container {
     display: grid;
+
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
@@ -515,7 +516,6 @@ main>* {
 
     .grid2 {
         display: grid;
-        flex-direction: row;
     }
 
     .col {
@@ -547,14 +547,17 @@ main>* {
     .settings {
         display: inline-block;
         justify-content: column;
-        width: 50%;
+        width: 25%;
 
     }
 
     .toggle-group {
         display: flex;
+    }
 
-
+    .nav {
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -573,14 +576,18 @@ main>* {
 
 
 
-
-
     .members,
     .mobile {
         width: 50%;
         display: inline-block;
     }
 
+
+    .Bottom-buttons {
+        display: flex;
+        flex-direction: row;
+
+    }
 
 
     .grid-container {
