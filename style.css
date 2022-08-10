@@ -512,8 +512,6 @@ main>* {
 @media (min-width: 1024px) {
 
 
-
-
     .grid2 {
         display: grid;
     }
@@ -538,7 +536,7 @@ main>* {
 
     .social-flex {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
 
     }
@@ -592,7 +590,7 @@ main>* {
 
     .grid-container {
 
-        grid-template-columns: 1fr;
+        grid-template-columns: 50px 1fr;
         grid-template-areas:
             "header header"
             "navigation main";
