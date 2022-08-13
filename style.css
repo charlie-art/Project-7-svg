@@ -504,8 +504,9 @@ main>* {
 
 
 
-
 }
+
+;
 
 
 
@@ -514,6 +515,7 @@ main>* {
 
     .grid2 {
         display: grid;
+
     }
 
     .col {
