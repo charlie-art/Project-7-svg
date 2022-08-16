@@ -529,10 +529,8 @@ main>* {
             and a greater than symbol 
             needs to be added and right-aligned like the new members date.  */
     .message {
-        display: inline-block;
+        display: flex;
         flex-direction: column;
-        width: 25%;
-
 
     }
 
@@ -546,7 +544,7 @@ main>* {
 
     .settings {
         display: inline-block;
-        justify-content: column;
+        justify-content: row;
         width: 25%;
 
     }
