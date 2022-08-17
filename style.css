@@ -561,13 +561,16 @@ main>* {
 
 
     .activity {
-        display: grid;
+        display: flex;
         flex-direction: row;
     }
+
+
 
     .settings {
         display: flex;
         flex-direction: row;
+        width: 50%;
 
     }
 
@@ -585,6 +588,15 @@ main>* {
         display: flex;
         flex-direction: row;
 
+    }
+
+
+    .message {
+        width: 50%
+    }
+
+    .settings {
+        width: 50%
     }
 
 
