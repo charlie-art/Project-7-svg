@@ -563,6 +563,7 @@ main>* {
     .activity {
         display: flex;
         flex-direction: row;
+
     }
 
 
