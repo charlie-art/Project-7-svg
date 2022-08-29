@@ -367,9 +367,11 @@ main>* {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
 
 }
+
 
 
 
@@ -383,7 +385,7 @@ main>* {
 
     .members-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .traffic-mobile {
@@ -424,11 +426,7 @@ main>* {
 
     .activity .members {
         display: grid;
-        flex-direction: row;
-    }
-
-    .col {
-        flex: 1;
+        flex-direction: column;
     }
 
 
@@ -450,18 +448,24 @@ main>* {
         flex: 1;
     }
 
+
+
     .nav {
         display: flex;
         flex-direction: column;
+
     }
 
 
     .grid-container {
+        display: grid;
 
-        grid-template-columns: 50px 1fr;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
         grid-template-areas:
-            "header header"
-            "navigation main";
+            "header"
+            "navigation"
+            "main";
     }
 
     .social {
@@ -475,12 +479,10 @@ main>* {
 
     .message {
 
-        display: grid;
-        flex-direction: row;
-
-
-
+        display: flex;
+        flex-direction: column;
         grid-column: 1 / span 7;
+
     }
 
 
@@ -500,13 +502,8 @@ main>* {
         justify-content: column;
         width: 100%;
     }
-
-
-
-
 }
 
-;
 
 
 
@@ -602,10 +599,13 @@ main>* {
 
 
     .grid-container {
+        display: grid;
 
-        grid-template-columns: 50px 1fr;
+        grid-template-columns: 100%;
+        grid-template-rows: row;
         grid-template-areas:
-            "header header"
-            "navigation main";
+            "header"
+            "navigation"
+            "main";
     }
 }
