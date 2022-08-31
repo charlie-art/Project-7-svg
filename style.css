@@ -4,7 +4,11 @@
     border-radius: 50%;
 }
 
-
+.bell-icon {
+    display: flex;
+    justify-content: center;
+    width: 50%
+}
 
 
 
@@ -30,8 +34,8 @@ img {
     position: relative;
 
     background-color: yellow;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    width: 10%;
+    transition: width 10s;
+    width: 20%;
 }
 
 
@@ -46,6 +50,7 @@ img {
     fill: #2196F3;
     background: rgb(80, 250, 154);
     border-radius: 50%;
+
 
 
 
