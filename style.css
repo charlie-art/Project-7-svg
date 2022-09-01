@@ -386,6 +386,13 @@ main>* {
 @media (min-width: 768px) {
 
 
+    .widget-container-full {
+        display: grid;
+        flex-direction: row;
+
+
+    }
+
 
 
     .members-container {
@@ -393,10 +400,13 @@ main>* {
         flex-direction: column;
     }
 
-    .traffic-mobile {
+    .traffic .mobile {
         display: flex;
         flex-direction: row;
+        width: 50%;
         justify-content: space-between;
+
+
 
 
     }
@@ -453,11 +463,14 @@ main>* {
         flex: 1;
     }
 
-
+    .navigation {
+        display: flex;
+        flex-direction: column;
+    }
 
     .nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
 
     }
 
